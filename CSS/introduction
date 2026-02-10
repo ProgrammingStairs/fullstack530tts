@@ -1,0 +1,19 @@
+CSS :
+
+1. Full form of css is Cascading stylesheet.
+2. CSS was developed by W3C world wide web consortium under Hakum wium lie. 
+3. CSS is mainly used to make web page more effective and attractive
+4. Css provides various ways to implement colors in our website
+5. Css provides several units for implementing in websites 
+6. There are three ways to implement CSS : 
+    a. Inline CSS
+    b. Internal CSS 
+    c. External CSS
+
+    Out of this three css, priority goes to inline css and recomended approach to use css is external css
+
+7. Css provides the concept of media query to make web page responsive.
+
+8. Css provides the concept of animation, flex box, transition  and grid system to make web page more attractive
+
+9. Css is dependent upon HTML
