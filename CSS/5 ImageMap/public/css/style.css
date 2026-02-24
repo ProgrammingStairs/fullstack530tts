@@ -1,0 +1,41 @@
+#container{
+    /* background-color: grey; */
+    height: auto;
+}
+#header{
+    height: 60px;
+    border-style: solid;
+}
+#navbar{
+    height: 60px;
+    border-style: solid;
+}
+#box{
+    height: 470px;
+    border-style: solid;
+}
+#leftbox{
+    height: 467px;
+    border-style: solid;
+    width: 25%;
+    float: left;
+}
+#rightbox{
+    height: 467px;
+    border-style: solid;
+    width: 74.34%;
+    float: left;
+}
+#section1{
+    height: 250px;
+    width: 300px;
+    border-style: solid;
+    float: left;
+    margin: 70px;
+    margin-top: 100px;
+    margin-left: 85px;
+}
+#footer{
+    height: 52px;
+    border-style: solid;
+}
