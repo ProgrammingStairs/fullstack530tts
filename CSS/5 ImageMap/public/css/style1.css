@@ -1,0 +1,55 @@
+#container{
+    height: auto;
+}
+#left{
+    width: 25%;
+    height: 655px;
+    background-color: darkslategrey;
+    float: left;
+}
+#right{
+    width: 75%;
+    height: 655px;
+    background-color: grey;
+    float: left;
+}
+#section1,#section2{
+    height:230px;
+    width: 70%;
+    background-color: grey;
+    margin: auto;
+    margin-top: 75px;
+}
+#header{
+    height:63px;
+    background-color: black;
+}
+#section{
+    height:530px;
+    background-color: lightgrey;
+}
+#leftsection{
+    height: 100%;
+    width: 50%;
+    background-color: grey;
+    float: left;
+}
+#rightsection{
+    height: 100%;
+    width: 50%;
+    background-color: darkslategrey;
+    float: left;
+}
+#circle{
+    height: 350px;
+    width:350px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 60px;
+}
+#box1{
+    height: 120px;
+    width: 75%;
+    margin: 70px;
+    background-color: black;
+}
