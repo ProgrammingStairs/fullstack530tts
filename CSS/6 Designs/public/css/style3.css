@@ -1,0 +1,43 @@
+*{
+    margin:0;
+}
+#bannerSection{
+    height: 300px;
+    background-color: grey;
+}
+#bannerId{
+    height: 300px;
+    width: 100%;
+}
+#userSection{
+    height: 150px;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: -75px;
+    border-radius: 50%;
+}
+#userId{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#section{
+    height: 240px;
+    width: 96%;
+    margin: auto;
+    padding: 20px;
+    /* border-style: solid; */
+}
+#box{
+    background-color: white;
+    box-shadow: 1px 1px 20px 1px;
+    border-radius: 10px;
+    font-family: candara;
+    height: 180px;
+    width: 335px;
+    /* border-style: solid; */
+    float: left;
+    margin: 20px;
+    text-align: justify;
+    padding: 10px;
+}
