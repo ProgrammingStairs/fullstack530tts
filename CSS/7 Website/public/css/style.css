@@ -17,6 +17,8 @@
     height: 60px;
     background-color: whitesmoke;
     /* border-style: solid; */
+    position: sticky;
+    top:0;
 }
 #leftHeader{
     width: 25%;
@@ -53,4 +55,65 @@
     color:#234567;
     font-size: 22px;
     margin-left: 40px;
+}
+#nav ul li a:hover{
+    color:red;
+}
+#nav ul li ul{
+    display: none;
+}
+#nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    width: 140px;
+    margin-left: 230px;
+    background-color: whitesmoke;
+    line-height: 45px;
+}
+#nav ul li ul li{
+    margin-left: -40px;
+}
+#banner{
+    height: 470px;
+    /* background-color: grey; */
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    border-radius: 0px 0px 20px 20px;
+}
+#section{
+    height: 200px;
+    padding: 17px;
+    width: 95%;
+    margin: auto;
+    margin-top: -100px;
+    /* background-color: grey; */
+}
+#box{
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px #234567;
+    height: 200px;
+    width: 340px;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 30px;
+    color: #234567;
+}
+#ban{
+    margin-top: 20px;
+    height: 120px;
+    width: 170px;
+}
+#box:hover{
+    transition: 2s;
+    transform: scale(1.1);
+    border-radius: 50%;
+    /* transform: rotate(360deg); */
+    background-color: orange;
+}
+#content{
+    height: 300px;
+    padding: 30px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    line-height: 26px;
 }
