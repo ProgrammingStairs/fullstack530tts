@@ -19,6 +19,7 @@
     /* border-style: solid; */
     position: sticky;
     top:0;
+    z-index: 999;
 }
 #leftHeader{
     width: 25%;
@@ -116,4 +117,78 @@
     background-color: whitesmoke;
     font-size: 18px;
     line-height: 26px;
+}
+#about{
+    height: 400px;
+    /* background-color: red; */
+    padding: 30px;
+}
+#leftabout{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin: 30px;
+    /* background-color: green; */
+}
+#aboutimg{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+#rightabout{
+    text-align:justify;
+    font-size: 19px;
+    height:280px;
+    width: 660px;
+    padding: 20px;
+    float: left;
+    margin: 30px;
+    /* background-color: green; */
+}
+#contact{
+    height: 420px;
+    background-color: #234567;
+    padding: 30px;
+    color:white;
+}
+#box1,#box2{
+    height: 280px;
+    padding: 20px;
+    /* background-color: green; */
+    width: 90px;
+    float: left;
+    margin: 20px;
+}
+#box1 ul li a,#box2 ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+#box1 ul li,#box2 ul li{
+    margin-left: -20px;
+}
+#box3{
+    height: 280px;
+    padding: 20px;
+    /* background-color: green; */
+    width: 250px;
+    float: left;
+    margin: 20px;
+}
+#box4{
+    height: 320px;
+    /* background-color: green; */
+    width: 400px;
+    float: left;
+    margin: 20px;
+    margin-top: 40px;
+}
+iframe{
+    height: 320px;
+    width: 400px;
+}
+#footer{
+    padding: 10px;
+    font-size: 20px;
 }
