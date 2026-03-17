@@ -222,7 +222,7 @@ iframe{
 #leftHeader{
     width: 50%;
     height: 100%;
-    background-color: green;
+    /* background-color: green; */
     float: left;
 }
 #logo{
@@ -239,32 +239,35 @@ iframe{
     width: 50%;
     height: 100%;
     color:#234567;
-    background-color: red;
+    /* background-color: red; */
     float: left;
 }
 #nav ul{
     list-style: none;
     padding-top: 13px;
+    display: none;
 }
 #nav ul li{
-    /* display: inline; */
-    display: none;
+    display: block;
 }
 #humber{
     display: inline;
     float: right;
 }
 #hum{
-    display: inline;
+    display: none;
 }
 #hum:checked ~ul{
-    display: inline;
+    display: block;
+    background-color: whitesmoke;
+    /* margin-left: -40px; */
 }
 #nav ul li a{
     text-decoration: none;
     color:#234567;
     font-size: 22px;
-    margin-left: 40px;
+    margin-left: 5px;
+    line-height: 50px;
 }
 #nav ul li a:hover{
     color:red;
