@@ -1,0 +1,73 @@
+Function : 
+Function is a self contained block of statement.
+Every function performs some specific task.
+
+Advantages of function : 
+1. Function reduces program size
+2. Function reduces complexity
+3. Function increases code reusability 
+4. Function reduces redundancy of code
+5. Function makes debugging easier
+6. We can create n no. of functions 
+7. A function can be called n no. of times
+
+Types of functions : 
+
+    a. Built-in function | In-built function | Standard function | Predefined function | Library function 
+    Functions whose definition part is already defined
+    Ex : write(), toFixed(), toPrecision() etc
+
+    b. User-defined function : 
+    Functions whose definition part is defined by the programmer according to its programming needs.
+
+Categories of functions : 
+    a. No argument No return type 
+    b. No argument with return type 
+    c. With argument no return type
+    d. With argument and with return type 
+
+Keypoints : 
+
+1. Declaration is a specific syntax form (function name() {}).
+
+2. Definition is a broader concept — any time you define a function, whether by declaration, expression, or arrow function.
+
+3. So, all function declarations are function definitions, but not all function definitions are declarations.
+
+4. function declaration --> function definition 
+function demo(){
+    .....
+} 
+
+5. function expression | anonymous function  
+function(){
+    ......
+}
+
+6. variable function
+var demo = function(){
+    ......
+}
+demo();
+
+7. Lambda expression | Fat arrow function 
+()=>{
+    ...
+} 
+
+var demo = ()=>{
+    ...
+} 
+demo(); 
+
+8. Immediately Invoked arrow function(fat arrow function) 
+(()=>{
+    ....
+    ....
+})()
+
+Immediately Invoked function expression 
+(function(){
+    ....
+    ....
+})()

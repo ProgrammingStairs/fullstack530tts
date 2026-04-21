@@ -1,0 +1,23 @@
+<!-- switch control statement -->
+<script>
+    var a = parseInt(prompt("Enter first value : "));
+    var b = parseInt(prompt("Enter second value : "));
+
+    document.write("<br>Value of a : "+a);
+    document.write("<br>Value of b : "+b);
+    
+    alert("Select Code : \n1 for Addition\n2 for Subtraction\n3 for Multiplicatio\n4 for Division\n5 for Modulus\n");
+    
+    var code = parseInt(prompt("Enter choice : "));
+    alert("You selected code : "+code);
+
+    switch(code){
+        case 1 : document.write("<br>Addition : "+(a+b)); break;
+        case 2 : document.write("<br>Subtraction : "+(a-b)); break;
+        case 3 : document.write("<br>Multiplication : "+(a*b)); break;
+        case 4 : document.write("<br>Division : "+(a/b)); break;
+        case 5 : document.write("<br>Modulus : "+(a%b)); break;
+        default : document.write("<br>Invalid selection"); break;
+    }
+
+</script>
