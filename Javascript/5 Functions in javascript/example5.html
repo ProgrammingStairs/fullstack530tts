@@ -1,0 +1,20 @@
+<!-- example showing the concept of functions in javascript -->
+<script>
+    // Immediately invoked function expression
+    
+    (function(){
+        var a = parseInt(prompt("Enter value of a : "));
+        var b = parseInt(prompt("Enter value of b : "));
+        document.write("sum : "+(a+b));
+    })();
+    
+
+    // immediately invoked fat arrow function
+    
+    (()=>{
+        var a = parseInt(prompt("Enter value of a : "));
+        var b = parseInt(prompt("Enter value of b : "));
+        document.write("<br>sum : "+(a+b));
+    })();
+    
+</script>

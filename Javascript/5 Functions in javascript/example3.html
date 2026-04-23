@@ -1,0 +1,45 @@
+<!-- example showing the concept of functions in javascript -->
+<script>
+    // no argument no return type
+    /*
+    function addition(){
+        var a = parseInt(prompt("Enter value of a : "));
+        var b = parseInt(prompt("Enter value of b : "));
+        document.write("sum : "+(a+b));
+    }
+    addition();
+    */
+
+   // no argument with return type
+    /*
+    function addition(){
+        var a = parseInt(prompt("Enter value of a : "));
+        var b = parseInt(prompt("Enter value of b : "));
+        return a+b;
+    }
+    document.write("sum : "+addition());
+    */
+
+   // with argument no return type
+   /*
+    var a = parseInt(prompt("Enter value of a : "));
+    var b = parseInt(prompt("Enter value of b : "));
+    
+    function addition(a,b){
+        document.write("sum : "+(a+b));
+    }
+    addition(a,b);
+    */
+
+   // with argument with return type
+   
+    var a = parseInt(prompt("Enter value of a : "));
+    var b = parseInt(prompt("Enter value of b : "));
+    
+    function addition(a,b){
+        return a+b;
+    }
+    document.write("sum : "+addition(a,b));
+    
+
+</script>
