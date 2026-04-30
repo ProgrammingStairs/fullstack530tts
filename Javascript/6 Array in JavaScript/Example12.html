@@ -1,0 +1,28 @@
+<!-- Multidimensional array -->
+<script>
+var num = parseInt(prompt("Enter no. of 2d array : "));
+var r = parseInt(prompt("Enter rows : "));
+var c = parseInt(prompt("Enter columns : "));
+
+var arr = []
+for(i=0;i<num;i++){
+    arr[i] = []
+    for(j=0;j<r;j++){
+        arr[i][j] = []
+        for(k=0;k<c;k++){
+            arr[i][j][k] = parseInt(prompt("Enter elements : "));
+        }
+    }
+}
+document.write("<br>Array elements are : <br>");
+for(i=0;i<num;i++){
+    document.write(i+1+" array elements : <br>");
+    for(j=0;j<r;j++){
+        for(k=0;k<c;k++)
+            document.write(arr[i][j][k]+"&nbsp;&nbsp;&nbsp;");
+        document.write("<br>");
+    }
+    document.write("<br>");
+} 
+
+</script>
